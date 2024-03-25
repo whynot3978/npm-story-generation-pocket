@@ -21,6 +21,12 @@ class storyGenerator {
         const story = `${character} ${action} the ${place} and found a ${event}.`;
         return story;
     }
+
+    getRandomElement(array) {
+        const index = this.chance.integer({min: 0, max: array.length - 1});
+
+        return array[index];
+    }
 }
 
 module.exports = storyGenerator;
