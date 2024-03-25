@@ -8,6 +8,7 @@ class storyGenerator {
         this.chance = new Chance();
     }
 
+    // Генерирует случайную историю
     generarateRandomStory() {
         const character = this.chance.pickone(storyData.characters);
         const place = this.chance.pickone(storyData.places);
