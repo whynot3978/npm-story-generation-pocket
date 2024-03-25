@@ -1,0 +1,6 @@
+{
+    "characters": ["John", "Alice", "Bob", "Emma"],
+    "places": ["forest", "castle", "beach", "mountain"],
+    "actions": ["found", "explore", "discover", "escape"],
+    "events": ["mysterious object", "hidden treasure", "ancient artifact"]
+}
